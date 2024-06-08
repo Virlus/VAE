@@ -91,7 +91,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch
 
 # Hyperparameters
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-latent_dim = 1
+latent_dim = 20
 save_dir = 'results_' + str(latent_dim)
 epochs = 100
 seed = 1
